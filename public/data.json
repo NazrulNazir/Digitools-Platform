@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Basic resume builder with essential templates for beginners.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic formatting tools",
+      "Download as PDF",
+      "Email support"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS-friendly templates.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ templates",
+      "ATS optimization",
+      "Export to PDF & DOCX",
+      "Priority email support"
+    ],
+    "icon": "⭐"
+  },
+  {
+    "id": 3,
+    "name": "Ultimate Resume Suite",
+    "description": "Complete resume and cover letter solution for professionals.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "100+ templates",
+      "Cover letter builder",
+      "LinkedIn profile tips",
+      "Unlimited downloads"
+    ],
+    "icon": "🏆"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Website Builder",
+    "description": "Create a personal portfolio website easily.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "20+ portfolio themes",
+      "Custom domain support",
+      "Responsive design",
+      "SEO optimization"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 5,
+    "name": "Interview Preparation Kit",
+    "description": "Prepare for job interviews with expert guidance.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Common interview questions",
+      "Mock interview videos",
+      "Behavioral question tips",
+      "Confidence-building guide"
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "Career Coaching Plan",
+    "description": "Personalized career coaching with expert mentors.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "1-on-1 coaching sessions",
+      "Career roadmap planning",
+      "Resume review",
+      "Job search strategy"
+    ],
+    "icon": "👨‍🏫"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn Optimization Service",
+    "description": "Improve your LinkedIn profile visibility and reach.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Profile headline optimization",
+      "Keyword-rich summary",
+      "Skill recommendations",
+      "Profile audit report"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 8,
+    "name": "Job Alert Premium",
+    "description": "Get instant job alerts tailored to your profile.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Custom job alerts",
+      "Daily email notifications",
+      "Industry-specific jobs",
+      "Application tracking"
+    ],
+    "icon": "🔔"
+  }
+]
