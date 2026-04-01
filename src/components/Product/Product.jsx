@@ -12,7 +12,7 @@ const Product = ({pdct, setCardData, cardData,}) => {
 
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col mb-5'>
       <div className={` border border-gray-300 p-5 rounded-lg grow`}>
         <div className='flex justify-between'>
           <p></p>

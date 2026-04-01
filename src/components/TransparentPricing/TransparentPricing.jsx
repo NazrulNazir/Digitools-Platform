@@ -64,15 +64,15 @@ const TransparentPricing = () => {
 
 
   return (
-    <div className='mb-25'>
-        <div className='mb-10'>
-            <h2 className='text-5xl font-bold text-center'>Simple, Transparent Pricing</h2>
-            <p className={`text-neutral-500 text-center mt-2`}>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+    <div className='mb-25 container mx-auto px-5 sm:px-0'>
+        <div className='mb-15'>
+            <h2 className='text-4xl md:text-5xl font-bold text-center'>Simple, Transparent Pricing</h2>
+            <p className={`text-neutral-500 text-center mt-3`}>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-        <div className='md:container px-5 sm:p-0 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div className='md:container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
             {
             transparent.map(item => {
-                return <div className='flex flex-col'>
+                return <div className='flex flex-col mb-6'>
                     <div className='relative'>
                         <div className={`absolute left-30 -top-4 px-6 py-2 rounded-2xl ${item.tag === 'Most Popular' && 'bg-amber-100 text-amber-600 font-bold'}`}>{item.tag}</div>
                         <div className={`p-5 pb-8 rounded-xl lg:col-span-1 ${item.tag === 'Most Popular' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : 'bg-base-300'} `}>

@@ -14,9 +14,9 @@ const Card = ({cardData, setCardLength}) => {
     setCardLength(items.length);
 
   return (
-    <div className='mt-10 container mx-auto px-10'>
+    <div className='mt-10 container mx-auto'>
         {
-            cardData.length === 0 ? (<div className='flex flex-col justify-center items-center px-20 py-15 bg-base-300 rounded-lg'>
+            cardData.length === 0 ? (<div className='flex flex-col justify-center items-center px-5 md:px-20 py-15 bg-base-300 rounded-lg'>
         <img className='w-40 h-40' src="/assets/jobs.png" alt="" />
         <h2 className='mt-8 text-4xl font-bold text-gray-500'>No Data Found</h2>
       </div>):(

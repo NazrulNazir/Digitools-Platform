@@ -12,11 +12,11 @@ const Navbar = ({cardLength}) => {
                 <ul
                     tabIndex="-1"
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Products</a></li>
-                    <li><a>Features</a></li>
-                    <li><a>Pricing</a></li>
-                    <li><a>Testimonials</a></li>
-                    <li><a>FAQ</a></li>
+                    <li><a className="text-xl bg-gray-100 mb-1">Products</a></li>
+                    <li><a className="text-xl bg-gray-100 mb-1">Features</a></li>
+                    <li><a className="text-xl bg-gray-100 mb-1">Pricing</a></li>
+                    <li><a className="text-xl bg-gray-100 mb-1">Testimonials</a></li>
+                    <li><a className="text-xl bg-gray-100 mb-1">FAQ</a></li>
                 </ul>
                 </div>
                 <a className="cursor-pointer text-3xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent hidden sm:flex">digiTools</a>

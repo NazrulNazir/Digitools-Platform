@@ -11,11 +11,12 @@ const products = use(cardPromise);
 
 const [cardData, setCardData] = useState([]);
 
+
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-6 sm:px-0">
       <div className='flex flex-col gap-4 justify-center items-center text-center'>
-        <h1 className='text-5xl text-gray-800 font-bold'>Premium Digital Tools</h1>
-        <p className=''>Choose from our curated collection of premium digital products designedto <br /> boost your productivity and creativity.</p>
+        <h1 className='text-4xl sm:text-5xl text-gray-800 font-bold'>Premium Digital Tools</h1>
+        <p className='mb-4'>Choose from our curated collection of premium digital products designedto <br /> boost your productivity and creativity.</p>
         <div>
             <button onClick={()=>setIsSelected('avilable')} className={`btn btn-goest rounded-full ${isSelected === 'avilable' ? 'text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : ''} `}>Products</button>
             

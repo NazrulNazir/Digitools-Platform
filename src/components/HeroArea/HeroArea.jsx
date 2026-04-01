@@ -5,11 +5,11 @@ const HeroArea = () => {
   return (
     <div className='container mx-auto md:flex justify-between my-10 md:my-20 px-5 sm:px-0'> 
       <section className='flex flex-col justify-center items-center md:items-start'>
-        <div className='flex gap-1 bg-gray-200 py-1.5 px-4 rounded-full mb-4'>
-          <img src="/assets/Group5.png" alt="" />
+        <div className='flex items-center gap-1.5 bg-gray-200 py-1.5 px-4 rounded-full mb-4'>
+          <img src="assets/Group5.png" alt="" />
           <p className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</p>
         </div>
-        <h1 className='text-[#101727] text-3xl md:text-6xl font-bold leading-10 md:leading-18 text-center sm:text-start'>
+        <h1 className='text-[#101727] text-4xl md:text-6xl font-bold leading-10 md:leading-18 text-center sm:text-start'>
             Supercharge Your <br />
             Digital Workflow</h1>
         <div className='w-full md:w-[500px] my-6'>
