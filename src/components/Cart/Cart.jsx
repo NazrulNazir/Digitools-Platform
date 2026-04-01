@@ -14,8 +14,8 @@ const Cart = ({cart, onDelete}) => {
         progress: undefined,
         theme: "light",
         transition: Bounce,
-});
-      };
+    });
+    };
   return (
    <div >
         <div className='flex justify-between items-center bg-base-300 px-4 py-4 rounded-xl'>
