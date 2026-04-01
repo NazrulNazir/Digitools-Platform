@@ -69,13 +69,16 @@ const TransparentPricing = () => {
             <h2 className='text-4xl md:text-5xl font-bold text-center'>Simple, Transparent Pricing</h2>
             <p className={`text-neutral-500 text-center mt-3`}>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-        <div className='md:container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch'>
             {
             transparent.map(item => {
-                return <div className='flex flex-col mb-6'>
-                    <div className='relative'>
-                        <div className={`absolute left-30 -top-4 px-6 py-2 rounded-2xl ${item.tag === 'Most Popular' && 'bg-amber-100 text-amber-600 font-bold'}`}>{item.tag}</div>
-                        <div className={`p-5 pb-8 rounded-xl lg:col-span-1 ${item.tag === 'Most Popular' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : 'bg-base-300'} `}>
+                return <div className='flex flex-col h-full'>
+                    <div className='relative flex flex-col h-full'>
+                        <div className={`absolute left-1/2 -translate-x-1/2 -top-4 px-6 py-2 rounded-2xl ${item.tag === 'Most Popular' && 'bg-amber-400 text-gray-900 font-bold'}`}>{item.tag}</div>
+                        <div className={`p-5 pb-8 rounded-xl flex flex-col h-full
+                            ${item.tag === 'Most Popular' 
+                            ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' 
+                            : 'bg-base-300'} `}>
                             <div className=''>
                                 <p className={`text-xl mt-3 font-bold ${item.tag === 'Most Popular' ? 'text-gray-100' : 'text-neutral-900'}`}>{item.name}</p>
                                 <p className={`${item.tag === 'Most Popular' ? 'text-gray-300' : 'text-neutral-500'}`}>{item.description}</p>

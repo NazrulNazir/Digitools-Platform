@@ -21,7 +21,7 @@ const Product = ({pdct, setCardData, cardData,}) => {
         <span className='text-3xl border border-gray-200 rounded-full p-1.5'>{icon}</span>
         <h1 className='mt-8 mb-4 text-3xl font-bold'>{name}</h1>
         <p>{description}</p>
-        <p><span className='text-2xl font-bold'>${price}</span>/{period}</p>
+        <p className='my-4'><span className='text-2xl font-bold'>${price}</span>/{period}</p>
         <div>
           <p>{features[0]}</p>
           <p>{features[1]}</p>

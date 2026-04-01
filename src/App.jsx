@@ -8,6 +8,8 @@ import Started3Step from './components/Started3Step/Started3Step'
 import TransparentPricing from './components/TransparentPricing/TransparentPricing'
 import Workflow from './components/Workflow/Workflow'
 import Footer from './components/Footer/Footer'
+import { ToastContainer } from 'react-toastify'
+import "react-toastify/dist/ReactToastify.css";
 
 
 const userPromise = async()=> {
@@ -34,6 +36,11 @@ function App() {
       <TransparentPricing/>
       <Workflow/>
       <Footer/>
+      <ToastContainer 
+        position="top-center"
+        autoClose={3000}
+        theme="light"
+      />
     </>
   )
 }

@@ -7,7 +7,7 @@ const Started3Step = () => {
         <h2 className='text-4xl md:text-5xl font-bold text-center'>Get Started in 3 Steps</h2>
         <p className='text-neutral-500 text-center mt-5 sm:mt-4'>Start using premium digital tools in minutes, not hours</p>
     </div>
-    <div className='md:container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-center'>
+    <div className='md:container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-center h-full'>
         <div className='bg-base-300 p-5 pb-8 rounded-xl sm:col-span-1 lg:col-span-1 mb-5'>
             <div className='flex justify-between items-center mt-2'>
                 <p></p>
