@@ -27,16 +27,17 @@ const Product = ({pdct, setCardData, cardData,}) => {
           <p>{features[1]}</p>
           <p>{features[2]}</p>
         </div>
-
-        <button onClick={()=> 
-        {
-          setClickCard('Add Card',); 
-          handleClick(); 
-          setCardData([...cardData, pdct])
-        }
-      } 
-          className={`btn btn-ghost rounded-full w-full mt-5 ${clickCard === 'Buy Now' ? 'text-white' : 'text-sky-500'} bg-linear-to-r from-[#4F39F6] to-[#9514FA]`}>{clickCard}
-        </button>
+        <a
+        type="button"
+          onClick={()=> {
+            setClickCard('Add to Card'); 
+            handleClick(); 
+            setCardData([...cardData, pdct]);
+          }}
+          className={`btn btn-ghost rounded-full w-full mt-5 text-white ${clickCard === 'Buy Now' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : 'bg-sky-500'} `}
+        >
+          {clickCard}
+        </a>
       </div>
     </div>
   )

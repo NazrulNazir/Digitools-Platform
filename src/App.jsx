@@ -5,6 +5,9 @@ import ActiveUser from './components/ActiveUser/ActiveUser'
 import HeroArea from './components/HeroArea/HeroArea'
 import Navbar from './components/Navbar/Navbar'
 import Content from './components/Content/Content'
+import Started3Step from './components/Started3Step/Started3Step'
+import TransparentPricing from './components/TransparentPricing/TransparentPricing'
+import Workflow from './components/Workflow/Workflow'
 
 
 const userPromise = async()=> {
@@ -27,6 +30,9 @@ function App() {
       <Suspense fallback = {<p>Loading..</p>}>
         <Content cardPromise = {cardPromise} setCardLength = {setCardLength}/>        
       </Suspense>
+      <Started3Step/>
+      <TransparentPricing/>
+      <Workflow/>
     </>
   )
 }
