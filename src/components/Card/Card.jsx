@@ -4,13 +4,14 @@ import Cart from '../Cart/Cart'
 const Card = ({cardData, setCardLength}) => {
 
 
-    setCardLength(cardData.length);
-
+    
     const [items, setItems] = useState(cardData);
     const total = items.reduce((acc, curr)=> acc + curr.price, 0);
     const onDelete = (id)=> {
         setItems(items.filter(item => item.id !== id));
     }
+    
+    setCardLength(items.length);
 
   return (
     <div className='mt-10 container mx-auto px-10'>

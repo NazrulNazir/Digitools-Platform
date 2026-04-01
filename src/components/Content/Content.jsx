@@ -3,7 +3,7 @@ import { useState } from "react"
 import Card from "../Card/Card";
 import Products from "./Products";
 
-const Content = ({cardPromise, setCardLength}) => {
+const Content = ({cardPromise, setCardLength, cardLength}) => {
 
 const [isSelected, setIsSelected] = useState('avilable');
 
@@ -19,7 +19,7 @@ const [cardData, setCardData] = useState([]);
         <div>
             <button onClick={()=>setIsSelected('avilable')} className={`btn btn-goest rounded-full ${isSelected === 'avilable' ? 'text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : ''} `}>Products</button>
             
-            <button onClick={()=> setIsSelected('selected')} className={`btn btn-goest rounded-full ${isSelected == 'selected' ? 'text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : ''} px-7`}>Cart ({cardData.length})</button>
+            <button onClick={()=> setIsSelected('selected')} className={`btn btn-goest rounded-full ${isSelected == 'selected' ? 'text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : ''} px-7`}>Cart ({cardLength})</button>
             
         </div>
       </div>

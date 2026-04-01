@@ -1,13 +1,13 @@
 import { Suspense, useState } from 'react'
 import './App.css'
 import ActiveUser from './components/ActiveUser/ActiveUser'
-// import Cards from './components/Content/Content'
 import HeroArea from './components/HeroArea/HeroArea'
 import Navbar from './components/Navbar/Navbar'
 import Content from './components/Content/Content'
 import Started3Step from './components/Started3Step/Started3Step'
 import TransparentPricing from './components/TransparentPricing/TransparentPricing'
 import Workflow from './components/Workflow/Workflow'
+import Footer from './components/Footer/Footer'
 
 
 const userPromise = async()=> {
@@ -28,11 +28,12 @@ function App() {
       <ActiveUser/>
 
       <Suspense fallback = {<p>Loading..</p>}>
-        <Content cardPromise = {cardPromise} setCardLength = {setCardLength}/>        
+        <Content cardPromise = {cardPromise} setCardLength = {setCardLength} cardLength = {cardLength}/>        
       </Suspense>
       <Started3Step/>
       <TransparentPricing/>
       <Workflow/>
+      <Footer/>
     </>
   )
 }

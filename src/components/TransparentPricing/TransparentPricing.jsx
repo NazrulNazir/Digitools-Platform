@@ -74,7 +74,7 @@ const TransparentPricing = () => {
             transparent.map(item => {
                 return <div className='flex flex-col'>
                     <div className='relative'>
-                        <div className={`absolute left-35 -top-4 px-6 py-2 rounded-2xl ${item.tag === 'Most Popular' && 'bg-amber-100 text-amber-600 font-bold'}`}>{item.tag}</div>
+                        <div className={`absolute left-30 -top-4 px-6 py-2 rounded-2xl ${item.tag === 'Most Popular' && 'bg-amber-100 text-amber-600 font-bold'}`}>{item.tag}</div>
                         <div className={`p-5 pb-8 rounded-xl lg:col-span-1 ${item.tag === 'Most Popular' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : 'bg-base-300'} `}>
                             <div className=''>
                                 <p className={`text-xl mt-3 font-bold ${item.tag === 'Most Popular' ? 'text-gray-100' : 'text-neutral-900'}`}>{item.name}</p>
