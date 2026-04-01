@@ -1,5 +1,3 @@
-/* eslint-disable no-irregular-whitespace */
-import React from 'react'
 
 const HeroArea = () => {
   return (
@@ -12,14 +10,14 @@ const HeroArea = () => {
         <h1 className='text-[#101727] text-4xl md:text-6xl font-bold leading-10 md:leading-18 text-center sm:text-start'>
             Supercharge Your <br />
             Digital Workflow</h1>
-        <div className='w-full md:w-[500px] my-6'>
+        <div className='w-full md:w-125 my-6'>
             <p className = 'text-center sm:text-start'>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.
             </p>
             <p className='text-center md:text-start'>Explore Products</p>
         </div>
         <div className='mt-5 flex gap-5'>
             <button className='btn btn-goest rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>Explore Products</button>
-            <button className='cursor-pointer font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent flex justify-center items-center gap-2 border border-[#9514FA] py-2 px-3 rounded-full text-sm'>
+            <button className='cursor-pointer font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent flex justify-center items-center gap-2 border border-[#9514FA] py-2 px-3 rounded-full text-sm '>
                 <img src="/assets/Play.png" /> 
                 Watch Demo
             </button>

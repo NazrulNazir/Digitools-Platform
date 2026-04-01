@@ -26,10 +26,10 @@ const Cart = ({cart, onDelete}) => {
                 <p className='text-gray-600 mt-1'>${price}</p>
             </div>
         </div>
-        <button onClick={()=> {
+        <a onClick={()=> {
             handleClick();
             onDelete(cart.id)
-        }} className='text-pink-500 font-bold cursor-pointer'>Remove</button>
+        }} className='text-pink-500 font-bold cursor-pointer'>Remove</a>
         </div>
         {/* <ToastContainer/> */}
    </div>

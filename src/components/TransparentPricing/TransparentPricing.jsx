@@ -1,6 +1,7 @@
 import React from 'react'
 import Product from '../Product/Product'
 import { FaCheck } from 'react-icons/fa'
+import { Bounce, toast } from 'react-toastify'
 
 const transparent = [
     {
@@ -60,7 +61,19 @@ const transparent = [
 ]
 const TransparentPricing = () => {
 
-
+const buyProduct = ()=> {
+        toast.success('🎉 You are Welcome..!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+    });
+    }
 
 
   return (
@@ -94,7 +107,7 @@ const TransparentPricing = () => {
                                     </div>)
                                 }
                             </div>
-                            <button className={`px-3 w-full mt-8 py-2 ${item.tag === 'Most Popular' ? 'text-purple-700' : 'text-white'} ${item.tag === 'Most Popular' ? 'bg-white' : 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]'} rounded-full cursor-pointer font-bold`}>{item.btn}</button>
+                            <button onClick={()=>buyProduct()} className={`px-3 w-full mt-8 py-2 ${item.tag === 'Most Popular' ? 'text-purple-700' : 'text-white'} ${item.tag === 'Most Popular' ? 'bg-white' : 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]'} rounded-full cursor-pointer font-bold`}>{item.btn}</button>
                         </div>
                     </div>
                 </div>
