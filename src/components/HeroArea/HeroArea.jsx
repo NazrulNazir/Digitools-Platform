@@ -9,7 +9,7 @@ const HeroArea = () => {
           <img src="/assets/Group5.png" alt="" />
           <p className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</p>
         </div>
-        <h1 className='text-[#101727] text-3xl md:text-5xl font-bold leading-10 md:leading-15 text-center sm:text-start'>
+        <h1 className='text-[#101727] text-3xl md:text-6xl font-bold leading-10 md:leading-18 text-center sm:text-start'>
             Supercharge Your <br />
             Digital Workflow</h1>
         <div className='w-full md:w-[500px] my-6'>
